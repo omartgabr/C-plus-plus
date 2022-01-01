@@ -19,6 +19,6 @@ This repository contains projects coded in C++.
   - Contains several projects using advanced features of polymorphism, inheritence, and more.
 
 (4) DataStructures&Algorithms
-  - Contains projects implementing various data structures and algorithms including the following:
-          a. Linked List
+  - Contains projects implementing various data structures and algorithms including the following: /
+          a. Linked List /
           b. Stack
