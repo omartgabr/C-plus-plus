@@ -16,7 +16,10 @@ This repository contains projects coded in C++.
           e. Mitigating market risks of BS model by applying delta-hedging techniques 
 
 (3) ObjectOrientedProgramming
-  - Contains several projects using advanced features of polymorphism, inheritence, and more.
+  - Contains several projects using advanced features of polymorphism, inheritence, and more:
+          a. Credit Card Account \
+          b. Vanilla Options \
+          c. Student 
 
 (4) DataStructures&Algorithms
   - Contains projects implementing various data structures and algorithms including the following: /
