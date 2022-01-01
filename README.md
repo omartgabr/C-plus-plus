@@ -17,3 +17,8 @@ This repository contains projects coded in C++.
 
 (3) ObjectOrientedProgramming
   - Contains several projects using advanced features of polymorphism, inheritence, and more.
+
+(4) DataStructures&Algorithms
+  - Contains projects implementing various data structures and algorithms including the following:
+          a. Linked List
+          b. Stack
