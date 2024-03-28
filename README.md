@@ -19,51 +19,45 @@ This project is a comprehensive toolkit for options pricing and analysis, provid
 ## Directory Structure
 
 options_pricing_toolkit/
-│
-├── src/ # Source code directory
-│ ├── option_pricing/ # Module for option pricing algorithms
-│ │ ├── black_scholes.cpp # Implementation of Black-Scholes model
-│ │ ├── monte_carlo.cpp # Implementation of Monte Carlo simulations
-│ │ ├── exotic_options.cpp # Implementation of algorithms for exotic options
-│ │ └── ...
-│ ├── sensitivity_analysis/ # Module for sensitivity analysis
-│ │ ├── greeks_calculator.cpp# Implementation of option Greeks calculation
-│ │ └── ...
-│ ├── risk_management/ # Module for risk management
-│ │ ├── portfolio_simulation.cpp # Implementation of portfolio simulation
-│ │ └── ...
-│ ├── strategy_evaluation/ # Module for strategy evaluation
-│ │ ├── strategy_backtesting.cpp # Implementation of strategy backtesting
-│ │ └── ...
-│ ├── visualization/ # Module for visualization
-│ │ ├── plot_generator.cpp # Implementation of plot generation
-│ │ └── ...
-│ └── main.cpp # Main application file
-│
-├── include/ # Header files directory
-│ ├── option_data.hpp # Struct definition for option data
-│ ├── utilities/ # Utility functions directory
-│ │ ├── input_output.hpp # Input/output functions
-│ │ ├── math_functions.hpp # Mathematical functions
-│ │ └── ...
-│ └── ...
-│
-├── docs/ # Documentation directory
-│ ├── user_guide.md # User guide and documentation
-│ ├── examples/ # Examples directory
-│ │ ├── example1.cpp # Example code for pricing options
-│ │ ├── example2.cpp # Example code for sensitivity analysis
-│ │ └── ...
-│ └── ...
-│
-├── tests/ # Test directory
-│ ├── option_pricing_tests.cpp # Unit tests for option pricing algorithms
-│ ├── sensitivity_tests.cpp # Unit tests for sensitivity analysis
-│ └── ...
-│
-├── LICENSE # License file
-├── README.md # Project README file
-└── ...
+├── src/
+│   ├── option_pricing/
+│   │   ├── black_scholes.cpp
+│   │   ├── monte_carlo.cpp
+│   │   └── ...
+│   ├── sensitivity_analysis/
+│   │   ├── greeks_calculator.cpp
+│   │   └── ...
+│   ├── risk_management/
+│   │   ├── portfolio_simulation.cpp
+│   │   └── ...
+│   ├── strategy_evaluation/
+│   │   ├── strategy_backtesting.cpp
+│   │   └── ...
+│   ├── visualization/
+│   │   ├── plot_generator.cpp
+│   │   └── ...
+│   └── main.cpp
+├── include/
+│   ├── option_data.hpp
+│   ├── utilities/
+│   │   ├── input_output.hpp
+│   │   ├── math_functions.hpp
+│   │   └── ...
+│   └── ...
+├── docs/
+│   ├── user_guide.md
+│   ├── examples/
+│   │   ├── example1.cpp
+│   │   ├── example2.cpp
+│   │   └── ...
+│   └── ...
+├── tests/
+│   ├── option_pricing_tests.cpp
+│   ├── sensitivity_tests.cpp
+│   └── ...
+├── LICENSE
+└── README.md
+
 
 ## Usage
 
